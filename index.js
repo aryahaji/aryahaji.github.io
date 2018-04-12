@@ -5,6 +5,8 @@ $('.button-collapse').sideNav({
   draggable: true // Choose whether you can drag to open on touch screens
 
 });
+
+
 // Dropdown JS
 $('.dropdown-button').dropdown({
   inDuration: 300,
@@ -16,14 +18,18 @@ $('.dropdown-button').dropdown({
   alignment: 'left', // Displays dropdown with edge aligned to the left of button
   stopPropagation: false // Stops event propagation
 });
+
 // JS initialization for Parallax
 $(document).ready(function() {
   $('.parallax').parallax();
 });
+
 // Carousel initialization
 $(document).ready(function() {
   $('.carousel').carousel();
 });
+
+
 //Smooth Scroll
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -39,6 +45,8 @@ $(function() {
     }
   });
 });
+
+
 $(document).ready(function() {
   $('.tooltipped').tooltip({
     delay: 50
