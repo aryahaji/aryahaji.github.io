@@ -9,8 +9,18 @@ nav {
   nav a {
     background-color: black !important; }
 
+.nav-wrapper {
+  text-align: center;
+}
+.overlay{
+
+}
 .parallax-container {
   height: 380px; }
+
+#hero-image, #contact-image {
+  background-color: rgba(0, 0, 0, 0.35);
+}
 
 #introDiv {
   margin: 0 auto;
