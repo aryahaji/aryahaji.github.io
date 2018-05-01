@@ -1,0 +1,58 @@
+html {
+  font-family: Avenir, sans-serif; }
+
+#nameRow {
+  font-family: Futura; }
+
+nav {
+  background-color: black !important; }
+  nav a {
+    background-color: black !important; }
+
+.nav-wrapper {
+  text-align: center;
+}
+.overlay{
+
+}
+.parallax-container {
+  height: 380px; }
+
+#hero-image, #contact-image {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+#introDiv {
+  margin: 0 auto;
+  text-align: center; }
+
+#pic {
+  text-align: center;
+  padding-top: 65px; }
+
+#picRadius {
+  border-radius: 50px; }
+
+.social-link {
+  fill: white; }
+
+#downArrow {
+  font-size: 50px; }
+
+#downArrow:hover {
+  transform: scale(1.2); }
+
+ul.browser-default {
+  padding-left: 40px; }
+
+ul.browser-default li {
+  list-style-type: inherit;
+  padding-bottom: 5px; }
+
+.socialIcons {
+  width: 15%; }
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white; }
